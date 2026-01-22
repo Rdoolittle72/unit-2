@@ -17,9 +17,20 @@ public class UnitTwo{
 
         int compare = FirstName.compareTo(lastName);
 
+
         System.out.println(compare);
 
+        System.out.println(lastName.split("l"));
+        System.out.println(lastName.codePointBefore(compare)); //8
+        System.out.println(FirstName.codePointAt(2));
+        System.out.println(lastName.concat(FirstName));
+        System.out.println(FirstName.contains("o"));
+        System.out.println(lastName.getBytes());
+        System.out.println(FirstName.replace("o", "a"));
+        System.out.println(lastName.startsWith("D"));
+        System.out.println(FirstName.trim());
 
+        /* 
         //boxing (formal)
         Integer intObject = new Integer(67); // must be an integer
         Double doubleObject = new Double(67.67); // can be an integer
@@ -65,6 +76,12 @@ public class UnitTwo{
         System.out.println(Math.cos(3.14159));
         System.out.println(Math.floorDiv(9, 4));
         System.out.println(Math.log(32.45));
+        */
+        //String concatenation order of operations
+        
+        System.out.println("I am " + 40 * 2 + " years old");
+
+        System.out.println((int) (Math.random() * 91 + 10));
 
         
 
