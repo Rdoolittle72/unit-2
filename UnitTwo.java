@@ -20,8 +20,8 @@ public class UnitTwo{
 
         System.out.println(compare);
 
-        System.out.println(lastName.split("l"));
-        System.out.println(lastName.codePointBefore(compare)); //8
+        System.out.println(lastName.endsWith("e"));
+        System.out.println(lastName.codePointBefore(3)); //8
         System.out.println(FirstName.codePointAt(2));
         System.out.println(lastName.concat(FirstName));
         System.out.println(FirstName.contains("o"));
